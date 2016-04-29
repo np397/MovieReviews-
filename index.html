@@ -43,7 +43,7 @@
 					<p class="title">{{movie.title}} ({{movie.country}})</p> 
 					<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
 					<p class="runtime">Runtime:<i ng-bind="timeText(movie.runtime)"></i></p> 
-					<p class="released">Released: {{movie.released |  date : "MMM dd,y" }} | Rated: {{movie.rating}}</p>
+					<p class="released">Released: {{movie.released |  date : "MMM dd, y" }} | Rated: {{movie.rating}}</p>
 					<p class="websites">Websites:  <a target="_blank" ng-href="{{movie.imdb}}">IMDB</a> | <a target="_blank" ng-href="{{movie.website}}">Official</a></p>
 					
 		            <div class="social">
