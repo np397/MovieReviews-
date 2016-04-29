@@ -88,9 +88,49 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
+	},
+    { 
+      title:	'The Hunger Games: Mockingjay', 
+      iscore:	6.7,
+      rating:	'PG-13',
+      runtime:	137,
+      released:	new Date('2015', '11', '20'),
+      country:	'USA',
+      posters:	['img/hungerGames_1.jpg','img/hungerGames_2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt1951266',
+      website:	'https://www.facebook.com/TheHungerGamesMovie',
+      likes:	753,
+      dislikes:	91,
+      posterindex: 0
+	},
+    { 
+      title:	'The Martian', 
+      iscore:	8.1,
+      rating:	'PG-13',
+      runtime:	144,
+      released:	new Date('2015', '10', '2'),
+      country:	'USA',
+      posters:	['img/martian_1.jpg','img/martian_2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt3659388',
+      website:	'https://www.facebook.com/MartianMovie',
+      likes:	863,
+      dislikes:	102,
+      posterindex: 0
+	},
+    { 
+      title:	'San Andreas', 
+      iscore:	6.1,
+      rating:	'PG-13',
+      runtime:	114,
+      released:	new Date('2015', '5', '29'),
+      country:	'USA',
+      posters:	['img/sanAndreas_1.jpg','img/sanAndreas_2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt2126355',
+      website:	'https://www.facebook.com/sanandreasmovie',
+      likes:	983,
+      dislikes:	126,
+      posterindex: 0
 	}
-	
-	
   ];
 	
 	
